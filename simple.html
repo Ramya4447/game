@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="simple.css">
+        <script src="simple.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>just it</title>
+    </head>
+
+    <body>
+        <center>
+        <h2><b>MATHS GAME</b></h2>
+        <div id="main">
+        <div id="time-div">
+        <button id="marks">Score : 0</button>
+        <button id="timeleft">Time Remaining : 0</button><br><br>
+    </div>
+    <div id="ques-div">
+        <button id="questionbox1" class="questionbox">0</button>
+        <button id="operator">*</button>
+        <button id="questionbox2" class="questionbox">0</button><br><br><br>
+    </div>
+    <div id="ans-div">
+        <button id="answerbox1" class="answerbox" onclick="option(1)">0</button>
+        <button id="answerbox2" class="answerbox" onclick="option(2)">0</button>
+        <button id="answerbox3" class="answerbox" onclick="option(3)">0</button>
+        <button id="answerbox4" class="answerbox" onclick="option(4)">0</button><br><br><br><br><br><br>
+    </div>
+        <button id="startgame" onclick="startgame()">START</button>   
+    </div>
+        </center>
+    </body>
+</html>
