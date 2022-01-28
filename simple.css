@@ -1,5 +1,6 @@
 body{
     padding-top: 5vh;
+    background-image: linear-gradient(rgb(187, 187, 245),rgb(247, 213, 219));
 
 }
 #main{
@@ -41,8 +42,8 @@ img{
     width:20vh;
 }
 #try-div{
-     height: 50vh;
-     width:50vh;
+     height: 40vh;
+     width:40vh;
 }
 #tryagain{
     height:10vh;
