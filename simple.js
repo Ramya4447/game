@@ -77,5 +77,5 @@ else{
 }
 }
 function tryagain(){
-  window.location.href="simple.html";
+  window.location.href="./index.html";
 }
