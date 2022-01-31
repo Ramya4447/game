@@ -193,7 +193,7 @@ else{
 }
 }
 function tryagain(){
-  window.location.href="simple.html";
+  window.location.href="index.html";
 }
 function finalscoree(){
   var dupscore=localStorage.getItem("scoree");
