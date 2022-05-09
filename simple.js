@@ -7,6 +7,7 @@ var colordisplay;
 highscore = localStorage.getItem("high", highscore);
 
 function startgame() {
+    document.getElementById("startgame").disabled = true;
     question();
 }
 
@@ -25,7 +26,7 @@ function timing() {
             localStorage.setItem("high", highscore);
             window.location.href = "tryagain.html";
         }
-    }, 1000)
+    }, 500)
 }
 
 function question() {
@@ -69,10 +70,10 @@ function question() {
             document.getElementById("answerbox2").innerHTML = wronganswer2;
             document.getElementById("answerbox3").innerHTML = wronganswer3;
             document.getElementById("answerbox4").innerHTML = wronganswer4;
-            document.getElementById("answerbox1").style.backgroundColor = "#59238F";
-            document.getElementById("answerbox2").style.backgroundColor = "#59238F";
-            document.getElementById("answerbox3").style.backgroundColor = "#59238F";
-            document.getElementById("answerbox4").style.backgroundColor = "#59238F";
+            document.getElementById("answerbox1").style.backgroundColor = "white";
+            document.getElementById("answerbox2").style.backgroundColor = "white";
+            document.getElementById("answerbox3").style.backgroundColor = "white";
+            document.getElementById("answerbox4").style.backgroundColor = "white";
             var correctindex = Math.floor((Math.random() * 4) + 1);
             var correctId = "answerbox" + correctindex;
             document.getElementById(correctId).innerHTML = answer;
@@ -114,10 +115,10 @@ function question() {
             document.getElementById("answerbox2").innerHTML = wronganswer2;
             document.getElementById("answerbox3").innerHTML = wronganswer3;
             document.getElementById("answerbox4").innerHTML = wronganswer4;
-            document.getElementById("answerbox1").style.backgroundColor = "#59238F";
-            document.getElementById("answerbox2").style.backgroundColor = "#59238F";
-            document.getElementById("answerbox3").style.backgroundColor = "#59238F";
-            document.getElementById("answerbox4").style.backgroundColor = "#59238F";
+            document.getElementById("answerbox1").style.backgroundColor = "white";
+            document.getElementById("answerbox2").style.backgroundColor = "white";
+            document.getElementById("answerbox3").style.backgroundColor = "white";
+            document.getElementById("answerbox4").style.backgroundColor = "white";
             var correctindex = Math.floor((Math.random() * 4) + 1);
             var correctId = "answerbox" + correctindex;
             document.getElementById(correctId).innerHTML = answer;
@@ -163,10 +164,10 @@ function question() {
             document.getElementById("answerbox2").innerHTML = wronganswer2;
             document.getElementById("answerbox3").innerHTML = wronganswer3;
             document.getElementById("answerbox4").innerHTML = wronganswer4;
-            document.getElementById("answerbox1").style.backgroundColor = "#59238F";
-            document.getElementById("answerbox2").style.backgroundColor = "#59238F";
-            document.getElementById("answerbox3").style.backgroundColor = "#59238F";
-            document.getElementById("answerbox4").style.backgroundColor = "#59238F";
+            document.getElementById("answerbox1").style.backgroundColor = "white";
+            document.getElementById("answerbox2").style.backgroundColor = "white";
+            document.getElementById("answerbox3").style.backgroundColor = "white";
+            document.getElementById("answerbox4").style.backgroundColor = "white";
             var correctindex = Math.floor((Math.random() * 4) + 1);
             var correctId = "answerbox" + correctindex;
             document.getElementById(correctId).innerHTML = answer;
